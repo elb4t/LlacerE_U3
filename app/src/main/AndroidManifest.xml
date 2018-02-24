@@ -21,6 +21,7 @@
         </activity>
         <activity android:name=".primos.Primos" android:parentActivityName=".Home" android:label="Primos"/>
         <activity android:name=".primos.PrimosInterface" android:parentActivityName=".Home" android:label="Primos Interface"/>
+        <activity android:name=".primos.PrimosFragmentOculto" android:parentActivityName=".Home" android:label="Primos Fragmento Oculto"/>
     </application>
 
 </manifest>

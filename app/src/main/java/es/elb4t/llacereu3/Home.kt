@@ -8,6 +8,7 @@ import android.support.v7.app.ActionBarDrawerToggle
 import android.support.v7.app.AppCompatActivity
 import android.view.MenuItem
 import es.elb4t.llacereu3.primos.Primos
+import es.elb4t.llacereu3.primos.PrimosFragmentOculto
 import es.elb4t.llacereu3.primos.PrimosInterface
 import kotlinx.android.synthetic.main.activity_home.*
 
@@ -44,6 +45,9 @@ class Home : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListene
             }
             R.id.nav_primosinterface -> {
                 startActivity(Intent(this,PrimosInterface::class.java))
+            }
+            R.id.nav_primosfragmento -> {
+                startActivity(Intent(this,PrimosFragmentOculto::class.java))
             }
 
         }
