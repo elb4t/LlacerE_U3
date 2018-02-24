@@ -24,6 +24,7 @@
         <activity android:name=".primos.PrimosFragmentOculto" android:parentActivityName=".Home" android:label="Primos Fragmento Oculto"/>
         <activity android:name=".serviciocronometro.ServicioCronometro" android:parentActivityName=".Home" android:label="Servicio Cronometro"/>
         <activity android:name=".messengerservice.Messenger" android:parentActivityName=".Home" android:label="Messenger Service"/>
+        <activity android:name=".calculadora.CalculadoraSHA1" android:parentActivityName=".Home" android:label="CalculadoraSHA1"/>
 
 
         <service
@@ -33,7 +34,11 @@
         <service
             android:name=".messengerservice.MessengerService"
             android:enabled="true"
-            android:exported="true"></service>
+            android:exported="true" />
+        <service
+            android:name=".calculadora.Sha1HashService"
+            android:enabled="true"
+            android:exported="true" />
     </application>
 
 </manifest>
