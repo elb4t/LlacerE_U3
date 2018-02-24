@@ -1,11 +1,13 @@
-package es.elb4t.llacere_u3
+package es.elb4t.llacereu3
 
+import android.content.Intent
 import android.os.Bundle
 import android.support.design.widget.NavigationView
 import android.support.v4.view.GravityCompat
 import android.support.v7.app.ActionBarDrawerToggle
 import android.support.v7.app.AppCompatActivity
 import android.view.MenuItem
+import es.elb4t.llacereu3.primos.Primos
 import kotlinx.android.synthetic.main.activity_home.*
 
 class Home : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
@@ -37,7 +39,7 @@ class Home : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListene
         // Handle navigation view item clicks here.
         when (item.itemId) {
             R.id.nav_camera -> {
-                // Handle the camera action
+                startActivity(Intent(this,Primos::class.java))
             }
             R.id.nav_gallery -> {
 

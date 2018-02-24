@@ -11,7 +11,7 @@
     <android.support.design.widget.CoordinatorLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context="es.elb4t.llacere_u3.Home">
+        tools:context="es.elb4t.llacereu3.Home">
 
         <android.support.design.widget.AppBarLayout
             android:layout_width="match_parent"
