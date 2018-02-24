@@ -8,6 +8,7 @@ import android.support.v7.app.ActionBarDrawerToggle
 import android.support.v7.app.AppCompatActivity
 import android.view.MenuItem
 import es.elb4t.llacereu3.primos.Primos
+import es.elb4t.llacereu3.primos.PrimosInterface
 import kotlinx.android.synthetic.main.activity_home.*
 
 class Home : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
@@ -38,18 +39,13 @@ class Home : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListene
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         // Handle navigation view item clicks here.
         when (item.itemId) {
-            R.id.nav_camera -> {
+            R.id.nav_primos -> {
                 startActivity(Intent(this,Primos::class.java))
             }
-            R.id.nav_gallery -> {
-
+            R.id.nav_primosinterface -> {
+                startActivity(Intent(this,PrimosInterface::class.java))
             }
-            R.id.nav_slideshow -> {
 
-            }
-            R.id.nav_manage -> {
-
-            }
         }
 
         drawer_layout.closeDrawer(GravityCompat.START)
