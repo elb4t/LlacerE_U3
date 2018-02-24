@@ -26,6 +26,7 @@
         <activity android:name=".messengerservice.Messenger" android:parentActivityName=".Home" android:label="Messenger Service"/>
         <activity android:name=".calculadora.CalculadoraSHA1" android:parentActivityName=".Home" android:label="CalculadoraSHA1"/>
         <activity android:name=".calculadora.CalculadoraSHA1Broadcast" android:parentActivityName=".Home" android:label="CalculadoraSHA1Broadcast"/>
+        <activity android:name=".bouncingball.BouncingBall" android:parentActivityName=".Home" android:label="BouncingBall"/>
 
 
         <service
