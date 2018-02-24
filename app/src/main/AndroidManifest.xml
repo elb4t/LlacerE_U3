@@ -23,10 +23,17 @@
         <activity android:name=".primos.PrimosInterface" android:parentActivityName=".Home" android:label="Primos Interface"/>
         <activity android:name=".primos.PrimosFragmentOculto" android:parentActivityName=".Home" android:label="Primos Fragmento Oculto"/>
         <activity android:name=".serviciocronometro.ServicioCronometro" android:parentActivityName=".Home" android:label="Servicio Cronometro"/>
+        <activity android:name=".messengerservice.Messenger" android:parentActivityName=".Home" android:label="Messenger Service"/>
+
+
         <service
             android:name=".serviciocronometro.BoundService"
             android:enabled="true"
             android:exported="true" />
+        <service
+            android:name=".messengerservice.MessengerService"
+            android:enabled="true"
+            android:exported="true"></service>
     </application>
 
 </manifest>
