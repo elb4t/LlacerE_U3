@@ -10,6 +10,7 @@ import android.view.MenuItem
 import es.elb4t.llacereu3.primos.Primos
 import es.elb4t.llacereu3.primos.PrimosFragmentOculto
 import es.elb4t.llacereu3.primos.PrimosInterface
+import es.elb4t.llacereu3.serviciocronometro.ServicioCronometro
 import kotlinx.android.synthetic.main.activity_home.*
 
 class Home : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
@@ -48,6 +49,9 @@ class Home : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListene
             }
             R.id.nav_primosfragmento -> {
                 startActivity(Intent(this,PrimosFragmentOculto::class.java))
+            }
+            R.id.nav_cronometro -> {
+                startActivity(Intent(this,ServicioCronometro::class.java))
             }
 
         }

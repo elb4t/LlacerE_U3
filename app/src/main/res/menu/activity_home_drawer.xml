@@ -13,6 +13,9 @@
         <item
             android:id="@+id/nav_primosfragmento"
             android:title="Primos Fragmento Ocilto" />
+        <item
+            android:id="@+id/nav_cronometro"
+            android:title="Servicio cronometro" />
 
     </group>
 
