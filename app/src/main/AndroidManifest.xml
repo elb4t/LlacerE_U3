@@ -25,6 +25,7 @@
         <activity android:name=".serviciocronometro.ServicioCronometro" android:parentActivityName=".Home" android:label="Servicio Cronometro"/>
         <activity android:name=".messengerservice.Messenger" android:parentActivityName=".Home" android:label="Messenger Service"/>
         <activity android:name=".calculadora.CalculadoraSHA1" android:parentActivityName=".Home" android:label="CalculadoraSHA1"/>
+        <activity android:name=".calculadora.CalculadoraSHA1Broadcast" android:parentActivityName=".Home" android:label="CalculadoraSHA1Broadcast"/>
 
 
         <service
@@ -37,6 +38,10 @@
             android:exported="true" />
         <service
             android:name=".calculadora.Sha1HashService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".calculadora.Sha1HashBroadcastService"
             android:enabled="true"
             android:exported="true" />
     </application>
